@@ -1,6 +1,7 @@
 import random
 from typing import Tuple
 
+
 def get_answer() -> int:
     return random.randint(0, 100)
 
