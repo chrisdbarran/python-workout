@@ -1,6 +1,7 @@
 import statistics as stat
 from decimal import Decimal
 
+
 def run_timing() -> None:
     times = []
 
@@ -20,6 +21,7 @@ def before_and_after(number: float, before: int, after: int) -> float:
     str_after = str_after[:after]
     str_result = '.'.join((str_before, str_after))
     return float(str_result)
+
 
 def add_floats(number1: str, number2: str) -> float:
     decimal1 = Decimal(number1)

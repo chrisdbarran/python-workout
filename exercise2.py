@@ -8,7 +8,8 @@ def mysum(*args) -> int:
         output += int(arg)
     return output
 
-def mysum_with_start(numbers: List[int], start: int ) -> int:
+
+def mysum_with_start(numbers: List[int], start: int) -> int:
     numbers.append(start)
     return mysum(*numbers)
 
