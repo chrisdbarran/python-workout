@@ -4,6 +4,7 @@ from typing import Tuple
 def get_answer() -> int:
     return random.randint(0, 100)
 
+
 def check(guess: int, target: int) -> Tuple[bool, str]:
 
     if guess > target:
