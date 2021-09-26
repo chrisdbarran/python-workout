@@ -1,0 +1,12 @@
+Thus, we can take the user’s input and break it into words
+again, assuming that there are no punctuation characters
+and then translate each individual word into Pig Latin.
+Whereas the one-word version of our program could simply 
+print its output right away, this one needs to store the
+accumulated output and then print it all at once. 
+It’s certainly possible to use a string for that,
+and to invoke += on the string with each iteration.
+But as a general rule, it’s not a good idea to build strings
+in that way. Rather, you should add elements to a list using
+list.append (http://mng.bz/Mdlm) and then invoke str.join to
+turn the list’s elements into a long string.
