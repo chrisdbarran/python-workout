@@ -14,5 +14,5 @@ def test_transpose():
     assert ex.transpose(provided) == expected
 
 def test_apache_log():
-    filename = './tests/apache.log'
+    filename = './tests/apache.txt'
     assert ex.apache(filename) == "192.168.2.21"
