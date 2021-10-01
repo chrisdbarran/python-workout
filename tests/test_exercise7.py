@@ -1,4 +1,4 @@
-import exercise7 as ex
+import chapter2.exercise7 as ex
 
 def test_ubbi_dubbi():
     assert ex.ubbi_dubbi("milk") == "mubilk"

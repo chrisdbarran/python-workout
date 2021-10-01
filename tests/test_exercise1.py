@@ -1,4 +1,4 @@
-import exercise1 as ex1
+import chapter1.exercise1 as ex1
 
 
 def test_answer_returns_int():

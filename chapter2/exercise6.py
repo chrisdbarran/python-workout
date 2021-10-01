@@ -1,6 +1,6 @@
 import re
 from typing import List
-import exercise5 as ex5
+import chapter2.exercise5 as ex5
 
 def pl_sentence(sentence: str):
     words = sentence.split()

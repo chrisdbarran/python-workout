@@ -1,4 +1,4 @@
-import exercise5 as ex
+import chapter2.exercise5 as ex
 
 
 def test_pig_latin_non_vowel():

@@ -1,4 +1,4 @@
-import exercise2 as ex
+import chapter1.exercise2 as ex
 
 
 def test_mysum_returns_zero_no_args():

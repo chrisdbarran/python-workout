@@ -1,4 +1,4 @@
-import exercise3 as ex
+import chapter1.exercise3 as ex
 
 
 def test_before_and_after():

@@ -1,4 +1,4 @@
-import exercise8 as ex
+import chapter2.exercise8 as ex
 import pytest
 
 @pytest.fixture

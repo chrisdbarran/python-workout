@@ -1,4 +1,4 @@
-import exercise4 as ex
+import chapter1.exercise4 as ex
 
 
 def test_hex_number():

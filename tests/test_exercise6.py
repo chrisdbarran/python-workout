@@ -1,4 +1,4 @@
-import exercise6 as ex
+import chapter2.exercise6 as ex
 
 def test_pl_sentence():
     assert ex.pl_sentence('this is a test translation') == "histay isway away esttay ranslationtay"
