@@ -23,3 +23,6 @@ def test_even_odd_sums(numbers_list, numbers_tuple):
 def test_plus_minus(numbers_list, numbers_tuple):
     assert ex.plus_minus(numbers_list) == 50
     assert ex.plus_minus(numbers_tuple) == 50
+
+def test_myzip():
+    assert ex.myzip([10,20,30], 'abc') == [(10, 'a'), (20, 'b'), (30, 'c')]
